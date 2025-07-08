@@ -20,10 +20,22 @@
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.satvik_shanmukha.CineSphere"
     },
     "web": {
       "favicon": "./assets/images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "20b35f2c-5316-44cd-afff-679409e518f9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/20b35f2c-5316-44cd-afff-679409e518f9"
     }
   }
 }
